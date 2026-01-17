@@ -1,4 +1,3 @@
-/* CSS Reset & Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -61,7 +60,6 @@ section {
     margin: 0 auto;
 }
 
-/* Buttons */
 .btn {
     display: inline-block;
     padding: 14px 32px;
@@ -123,7 +121,6 @@ section {
     background-color: var(--primary-pink-dark);
 }
 
-/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -147,7 +144,7 @@ section {
 }
 
 .logo {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Caveat', cursive;
     font-size: 2rem;
     font-weight: 500;
     color: var(--primary-pink);
@@ -183,7 +180,6 @@ section {
     cursor: pointer;
 }
 
-/* Hero */
 .hero {
     padding-top: 140px;
     background-color: var(--primary-pink-light);
@@ -248,7 +244,6 @@ section {
     margin-bottom: 20px;
 }
 
-/* Menu */
 .menu {
     background-color: var(--white);
 }
@@ -325,7 +320,6 @@ section {
     color: var(--primary-pink);
 }
 
-/* About */
 .about {
     background-color: var(--gray-light);
 }
@@ -358,7 +352,6 @@ section {
     color: var(--gray);
 }
 
-/* Steps */
 .steps {
     background-color: var(--white);
 }
@@ -398,7 +391,6 @@ section {
     color: var(--gray);
 }
 
-/* Reviews */
 .reviews {
     background-color: var(--primary-pink-light);
 }
@@ -439,7 +431,6 @@ section {
     color: var(--primary-pink);
 }
 
-/* Instagram */
 .insta-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -473,7 +464,6 @@ section {
     text-align: center;
 }
 
-/* Footer */
 .footer {
     background-color: var(--black);
     color: var(--white);
@@ -488,7 +478,7 @@ section {
 }
 
 .footer-logo {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Caveat', cursive;
     font-size: 2.2rem;
     color: var(--primary-pink);
     margin-bottom: 15px;
@@ -563,7 +553,6 @@ section {
     margin: 0 5px;
 }
 
-/* Responsive */
 @media (max-width: 992px) {
     .hero-title {
         font-size: 2.8rem;
